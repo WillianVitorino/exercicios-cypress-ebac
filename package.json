@@ -1,0 +1,25 @@
+{
+  "name": "exercicios-cypress-ebac",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WillianVitorino/exercicios-cypress-ebac.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WillianVitorino/exercicios-cypress-ebac/issues"
+  },
+  "homepage": "https://github.com/WillianVitorino/exercicios-cypress-ebac#readme",
+  "devDependencies": {
+    "@faker-js/faker": "^7.1.0",
+    "cypress": "^9.7.0",
+    "faker": "^5.5.3"
+  }
+}
