@@ -1,0 +1,12 @@
+{
+    "nome": "Teste",
+    "sobrenome": "Software",
+    "nomeEmpresa": "Ebac",
+    "pais": "Brasil",
+    "endereco": "Rua Xavier de Carvalho",
+    "cidade": "Porto Alegre",
+    "Estado": "Rio Grande do Sul",
+    "cep": "91110440",
+    "telefone": "51999999999",
+    "email": "teste@teste.com"
+}
