@@ -16,8 +16,8 @@ context('Exercicio - Testes End-to-end - Fluxo de pedido', () => {
     it('Deve fazer um pedido na loja Ebac Shop de ponta a ponta', () => {
         cy.adicionarProduto(2, 32, 'Green', 1);
         cy.adicionarProduto(1, 'XS', 'Yellow', 1);
-        cy.adicionarProduto(3, 'XS', 'Green', 1);
-        cy.adicionarProduto(4, 34, 'Black', 1);
+        cy.adicionarProduto(2, 33, 'Blue', 1);
+        cy.adicionarProduto(2, 33, 'Brown', 1);
         cy.get('.dropdown-toggle > .text-skin > .icon-basket').click();
         cy.get('#cart > .dropdown-menu > .widget_shopping_cart_content > .mini_cart_content > .mini_cart_inner > .mcart-border > .buttons > .checkout').click();
         var dados = require('../../fixtures/detalhesFaturamento.json');
